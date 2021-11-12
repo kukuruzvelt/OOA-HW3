@@ -12,9 +12,6 @@ def ticketNumber():
     return ticketNumber.number
 
 
-# todo: функция получения билетов по номеру
-
-
 class Ticket(ABC):
     @property
     @abstractmethod
